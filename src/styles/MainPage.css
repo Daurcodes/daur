@@ -1,0 +1,44 @@
+.main-container {
+    background-image: url('/src/styles/images/фон трейд.webp'); /* Путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+button {
+    margin: 0 10px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.feature-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px; /* Уменьшили padding для более компактного вида */
+    border-radius: 8px;
+    color: #000;
+    width: 200px; /* Установили фиксированный размер для всех блоков */
+    height: 150px; /* Установили фиксированный размер для всех блоков */
+    margin: 10px; /* Добавили отступы между блоками */
+}
+
+.nav-button:hover {
+    color: #ffeb3b; /* Цвет при наведении */
+}
